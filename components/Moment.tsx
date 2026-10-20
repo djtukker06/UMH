@@ -1,7 +1,8 @@
 "use client";
 
 import { ArrowRight, CalendarBlank, Clock, MapPin, Sparkle, Ticket, UsersThree } from "@phosphor-icons/react";
-import { nextMoment } from "@/lib/content";
+import Image from "next/image";
+import { images, nextMoment } from "@/lib/content";
 import { Title } from "./Title";
 import { useLang } from "./LangProvider";
 
@@ -45,6 +46,12 @@ export function Moment() {
             </dl>
           </div>
           <div className="ticket__stub">
+            {images.ticket ? (
+              <figure className="ticket__photo">
+                <Image src={images.ticket} alt={t("moment.photoAlt")} fill sizes="(max-width: 860px) 90vw, 480px" />
+                <figcaption className="ticket__credit">{t("moment.photoCredit")}</figcaption>
+              </figure>
+            ) : null}
             <p className="ticket__stubtext">{t("moment.stub")}</p>
             <a className="btn btn--dark" href={mailto} data-magnetic>
               <span>{t("nav.cta")}</span>

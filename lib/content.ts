@@ -36,31 +36,45 @@ export const pills = [
   { nl: "Universiteit Utrecht", en: "Utrecht University", c: "--usp-18", icon: "graduation", left: 30, top: 86, rot: 8 },
 ] as const;
 
+/* Partners. logo = pad in /public (leeg laten als er geen officieel logo is: dan verschijnt de naam als woordmerk). */
 export const partners = [
-  { name: "Hogeschool Utrecht", nl: "o.a. Institute of Movement Studies", en: "incl. Institute of Movement Studies", c: "--usp-3" },
-  { name: "UMC Utrecht", nl: "Revalidatie, Fysiotherapiewetenschap & Sport, Orthopedie, Mobility Clinic", en: "Rehabilitation, Physiotherapy Science & Sport, Orthopaedics, Mobility Clinic", c: "--usp-7" },
-  { name: "Utrecht University", nl: "Diergeneeskunde", en: "Veterinary Medicine", c: "--usp-16" },
-  { name: "Hubrecht Institute", nl: "", en: "", c: "--usp-11" },
-  { name: "Data and Knowledge Hub Healthy Urban Living", nl: "", en: "", c: "--usp-20" },
-  { name: "Utrecht Bike Community", nl: "", en: "", c: "--usp-1" },
+  { name: "Hogeschool Utrecht", logo: "/img/partners/hogeschool-utrecht.svg", nl: "o.a. Institute of Movement Studies", en: "incl. Institute of Movement Studies", c: "--usp-3" },
+  { name: "UMC Utrecht", logo: "/img/partners/umc-utrecht.svg", nl: "Revalidatie, Fysiotherapiewetenschap & Sport, Orthopedie, Mobility Clinic", en: "Rehabilitation, Physiotherapy Science & Sport, Orthopaedics, Mobility Clinic", c: "--usp-7" },
+  { name: "Utrecht University", logo: "/img/partners/universiteit-utrecht.svg", nl: "Diergeneeskunde", en: "Veterinary Medicine", c: "--usp-16" },
+  { name: "Hubrecht Institute", logo: "/img/partners/hubrecht-institute.svg", nl: "", en: "", c: "--usp-11" },
+  { name: "Data and Knowledge Hub Healthy Urban Living", logo: "", nl: "", en: "", c: "--usp-20" },
+  { name: "Utrecht Bike Community", logo: "", nl: "", en: "", c: "--usp-1" },
 ];
 
-/* Vervang role door de echte functie en zet een portret in /public/img (zie components/Ambassadors.tsx). */
+/* Vakgebieden die je bij Kennis met plezier tegenkomt (zelfde bron als de hero-labels en partner-afdelingen).
+   c = accentkleur uit de Science Park-strook. */
+/* De zes onderzoeksthema's van UMH (uit de briefing). Namen zijn Engelstalige vaktermen, in NL en EN gelijk. */
+export const themes = [
+  { nl: "Cell & Tissue Modeling", en: "Cell & Tissue Modeling", c: "--usp-16" },
+  { nl: "Biofabrication & Artificial Organs", en: "Biofabrication & Artificial Organs", c: "--usp-7" },
+  { nl: "Quality of Life", en: "Quality of Life", c: "--usp-1" },
+  { nl: "Data & AI Models", en: "Data & AI Models", c: "--usp-11" },
+  { nl: "Environmental Resilience", en: "Environmental Resilience", c: "--usp-22" },
+  { nl: "Imaging & Image-Guided Interventions", en: "Imaging & Image-Guided Interventions", c: "--usp-4" },
+];
+
+/* role = functie en afdeling volgens de officiële profielpagina (NL en EN). photo = portret in /public/img/ambassadors (leeg = initialen),
+   pos = object-position voor de ronde uitsnede. Bronnen staan in public/img/CREDITS.md. */
 export const ambassadors = [
-  { name: "Stefan Elbers", role: "[ROL / AFDELING]", c: "--usp-1" },
-  { name: "Eva Bax", role: "[ROL / AFDELING]", c: "--usp-4" },
-  { name: "Karin Valkenet", role: "[ROL / AFDELING]", c: "--usp-9" },
-  { name: "Rosalie Hegeman", role: "[ROL / AFDELING]", c: "--usp-15" },
-  { name: "Roel Custers", role: "[ROL / AFDELING]", c: "--usp-19" },
-  { name: "Thomas Hoogeboom", role: "[ROL / AFDELING]", c: "--usp-22" },
+  { name: "Stefan Elbers", role: { nl: "Onderzoeker, Lectoraat Innovatie van Beweegzorg, Hogeschool Utrecht", en: "Researcher, Innovation of Movement Care research group, HU University of Applied Sciences Utrecht" }, c: "--usp-1", photo: "/img/ambassadors/stefan-elbers-hu.jpg", pos: "center 35%" },
+  { name: "Eva Bax", role: { nl: "Postdoc, Orthopedie, UMC Utrecht", en: "Postdoctoral researcher, Orthopaedics, UMC Utrecht" }, c: "--usp-4", photo: "/img/ambassadors/eva-bax.jpg", pos: "center 30%" },
+  { name: "Karin Valkenet", role: { nl: "Senior onderzoeker, Lectoraat Innovatie van Beweegzorg, Hogeschool Utrecht", en: "Senior researcher, Innovation of Movement Care research group, HU University of Applied Sciences Utrecht" }, c: "--usp-9", photo: "/img/ambassadors/karin-valkenet.jpg", pos: "center 35%" },
+  { name: "Rosalie Hegeman", role: { nl: "Living Lab Manager, UMC Utrecht en Universiteit Utrecht", en: "Living Lab Manager, UMC Utrecht and Utrecht University" }, c: "--usp-15", photo: "/img/ambassadors/rosalie-hegeman.jpg", pos: "center" },
+  { name: "Roel Custers", role: { nl: "Orthopedisch chirurg en onderzoeker, UMC Utrecht", en: "Orthopaedic surgeon and researcher, UMC Utrecht" }, c: "--usp-19", photo: "/img/ambassadors/roel-custers.jpg", pos: "44% 25%" },
+  { name: "Thomas Hoogeboom", role: { nl: "Hoogleraar Fysiotherapiewetenschap, UMC Utrecht", en: "Professor of Physical Therapy Science, UMC Utrecht" }, c: "--usp-22", photo: "/img/ambassadors/thomas-hoogeboom.jpg", pos: "52% 28%" },
 ];
 
-/* Beeld: placeholders (picsum) tot de stills uit de Science Park-video's in /public/img staan.
-   Zet een bestand neer en vervang de src, bijvoorbeeld "/img/umh-1.jpg". */
+/* Foto's in /public/img/photos (bronnen en licenties: public/img/CREDITS.md).
+   Een leeg pad laat het lege fotovak "Foto volgt" staan. */
 export const images = {
-  // Voor de sectie "Wat is UMH" staan nu lege fotovakken (components/Umh.tsx). Paden voor later:
-  umhMain: "/img/umh-1.jpg",
-  umhSmall: "/img/umh-2.jpg",
+  umhMain: "/img/photos/umh-1.jpg",
+  umhSmall: "/img/photos/umh-2.jpg",
+  ticket: "/img/photos/ticket-yoga-studio.jpg",
   conceptPoster: "https://picsum.photos/seed/science-park-evening/1600/900",
 };
 

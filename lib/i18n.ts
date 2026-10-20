@@ -34,21 +34,21 @@ const nl = {
   "moment.whoHint": "van alle partners, geen voorkennis nodig",
   "moment.stub": "Aanmelden gaat met één mail. Zet in het onderwerp welk moment je kiest.",
   "moment.subject": "Aanmelding Kennis met plezier",
+  "moment.photoAlt": "Een groep doet samen yoga in een lichte studio met een kleurrijke muur",
+  "moment.photoCredit": "Foto: Vitaly Gariev via Unsplash",
 
   "umh.l1": "Wat is UMH",
   "umh.script": "Utrecht Mobility & Health",
   "umh.quote": "Mobility is fundamental to healthy, meaningful and fulfilling lives and thriving societies.",
   "umh.mission": "UMH verbindt mensen, kennis en disciplines om mobiliteit en gezondheid gedurende de hele levensloop te verbeteren. Het platform is een initiatief van Utrecht University en UMC Utrecht.",
   "umh.photo": "Foto volgt",
+  "umh.alt1": "Het Minnaertgebouw op het Utrecht Science Park, met mensen op het terras in de zon",
+  "umh.alt2": "Een groep fietsers op een rood fietspad in Utrecht",
+  "umh.credit": "Foto's: Filipjack (CC0) en Sebastiaan ter Burg (CC BY-SA 2.0), via Wikimedia Commons",
 
-  "pillars.l1": "Drie pijlers",
-  "pillars.script": "zo werkt UMH",
-  "pillars.1.t": "Netwerk",
-  "pillars.1.p": "Mensen en disciplines verbinden.",
-  "pillars.2.t": "Uitwisseling",
-  "pillars.2.p": "Kennis en ideeën delen.",
-  "pillars.3.t": "Maatschappelijke impact",
-  "pillars.3.p": "Wetenschap koppelen aan maatschappelijke partners.",
+  "themes.l1": "Onderzoeksthema's",
+  "themes.script": "waar UMH aan werkt",
+  "themes.intro": "Onderzoekers binnen UMH werken aan zes thema's. Grote kans dat je er bij een moment iemand van tegenkomt.",
 
   "concept.l1": "Het concept",
   "concept.script": "Kennis met plezier",
@@ -74,8 +74,10 @@ const nl = {
   "footer.brand": "Utrecht Mobility & Health",
   "footer.init": "Een initiatief van Utrecht University en UMC Utrecht.",
   "footer.contact": "Contact",
-  "footer.conceptLabel": "Over dit concept",
   "footer.concept": "Kennis met plezier is een concept van CMD-studenten van Hogeschool Utrecht, gemaakt voor UMH.",
+  "footer.pageLabel": "Op deze pagina",
+  "footer.top": "Naar boven",
+  "footer.credits": "Beeldbronnen: foto's via Unsplash en Wikimedia Commons (CC0 en CC BY-SA), logo's en portretten van de eigen organisaties.",
 };
 
 export type Key = keyof typeof nl;
@@ -114,21 +116,21 @@ const en: Record<Key, string> = {
   "moment.whoHint": "from all partners, no prior knowledge needed",
   "moment.stub": "Signing up takes one email. Put the moment you choose in the subject line.",
   "moment.subject": "Sign-up Kennis met plezier",
+  "moment.photoAlt": "A group doing yoga together in a bright studio with a colourful wall",
+  "moment.photoCredit": "Photo: Vitaly Gariev via Unsplash",
 
   "umh.l1": "What is UMH",
   "umh.script": "Utrecht Mobility & Health",
   "umh.quote": "Mobility is fundamental to healthy, meaningful and fulfilling lives and thriving societies.",
   "umh.mission": "UMH connects people, knowledge and disciplines to improve mobility and health across the whole life course. The platform is an initiative of Utrecht University and UMC Utrecht.",
   "umh.photo": "Photo to come",
+  "umh.alt1": "The Minnaert building at Utrecht Science Park, with people on the terrace in the sun",
+  "umh.alt2": "A group of cyclists on a red bike path in Utrecht",
+  "umh.credit": "Photos: Filipjack (CC0) and Sebastiaan ter Burg (CC BY-SA 2.0), via Wikimedia Commons",
 
-  "pillars.l1": "Three pillars",
-  "pillars.script": "this is how UMH works",
-  "pillars.1.t": "Network",
-  "pillars.1.p": "Connecting people and disciplines.",
-  "pillars.2.t": "Exchange",
-  "pillars.2.p": "Sharing knowledge and ideas.",
-  "pillars.3.t": "Societal impact",
-  "pillars.3.p": "Linking science to societal partners.",
+  "themes.l1": "Research themes",
+  "themes.script": "what UMH works on",
+  "themes.intro": "Researchers within UMH work on six themes. Chances are you will meet someone from one of them at a moment.",
 
   "concept.l1": "The concept",
   "concept.script": "Kennis met plezier",
@@ -154,8 +156,10 @@ const en: Record<Key, string> = {
   "footer.brand": "Utrecht Mobility & Health",
   "footer.init": "An initiative of Utrecht University and UMC Utrecht.",
   "footer.contact": "Contact",
-  "footer.conceptLabel": "About this concept",
   "footer.concept": "Kennis met plezier is a concept by CMD students of HU University of Applied Sciences Utrecht, made for UMH.",
+  "footer.pageLabel": "On this page",
+  "footer.top": "Back to top",
+  "footer.credits": "Image sources: photos via Unsplash and Wikimedia Commons (CC0 and CC BY-SA), logos and portraits from the organisations themselves.",
 };
 
 export const dictionaries: Record<Lang, Record<Key, string>> = { nl, en };

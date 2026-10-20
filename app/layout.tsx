@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="nl" className={`${display.variable} ${body.variable} ${script.variable}`}>
+    <html lang="nl" data-script="straight" className={`${display.variable} ${body.variable} ${script.variable}`}>
       <head>
         <meta name="theme-color" content="#006060" />
       </head>

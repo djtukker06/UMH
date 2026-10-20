@@ -7,7 +7,7 @@ import { Hero } from "@/components/Hero";
 import { Moment } from "@/components/Moment";
 import { Nav } from "@/components/Nav";
 import { Partners } from "@/components/Partners";
-import { Pillars } from "@/components/Pillars";
+import { Themes } from "@/components/Themes";
 import { ScrollFx } from "@/components/ScrollFx";
 import { Umh } from "@/components/Umh";
 
@@ -20,7 +20,7 @@ export default function Page() {
         <Band />
         <Moment />
         <Umh />
-        <Pillars />
+        <Themes />
         <Concept />
         <Partners />
         <Ambassadors />

@@ -4,7 +4,7 @@
    - scroll progress bar in Science Park colours
    - display headings: words slide up, the script writes itself in
    - [data-reveal] blocks rise into view
-   - the three core values stack: each card shrinks a little as the next one arrives
+   - the three core values stack: each card shrinks and darkens a little as the next one covers it
    - nav gets a hairline once you leave the top
    - magnetic pull on primary buttons (pointer devices only)
    Everything above the "reduced" line is skipped under prefers-reduced-motion. */
@@ -48,7 +48,8 @@ export function ScrollFx() {
       cards.forEach((card, i) => {
         if (i === cards.length - 1) return;
         gsap.to(card, {
-          scale: 0.94, opacity: 0.55, ease: "none",
+          // Cards stay fully opaque: the card going behind shrinks and darkens (via --dim) instead of fading.
+          scale: 0.94, "--dim": 0.38, ease: "none",
           scrollTrigger: { trigger: cards[i + 1], start: "top bottom", end: "top top+=140", scrub: true },
         });
       });

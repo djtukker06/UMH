@@ -1,0 +1,14 @@
+# Beeldbronnen
+- public/img/partners/hogeschool-utrecht.svg: https://www.hu.nl/static/images/hu-logo.svg (official logo from organisation's own website, trademark) Hogeschool Utrecht
+- public/img/partners/umc-utrecht.svg: https://commons.wikimedia.org/wiki/File:Logo_of_UMC_Utrecht_(2019).svg (Public domain, trademarked) UMC Utrecht
+- public/img/partners/universiteit-utrecht.svg: https://www.uu.nl/themes/custom/corp/src/images/uu-logo-nl.svg (official logo from organisation's own website, trademark; also on Wikimedia Commons as public domain textlogo) Universiteit Utrecht
+- public/img/partners/hubrecht-institute.svg: https://www.hubrecht.eu/app/themes/hubrecht/logo-new.svg (official logo from organisation's own website, trademark) Hubrecht Institute
+- public/img/ambassadors/karin-valkenet.jpg: https://www.hu.nl/onderzoek/onderzoekers/karin-valkenet (official institutional profile photo, Hogeschool Utrecht) Hogeschool Utrecht
+- public/img/ambassadors/eva-bax.jpg: https://www.umcutrecht.nl/nl/zorgverleners/bax-e-a (official institutional profile photo, UMC Utrecht) UMC Utrecht
+- public/img/ambassadors/rosalie-hegeman.jpg: https://gezondstedelijklevenhub.nl/over-ons/kernteam/ (official profile photo, Data- en Kennishub Gezond Stedelijk Leven, partnership of UU/UMC Utrecht) Data- en Kennishub Gezond Stedelijk Leven
+- public/img/ambassadors/roel-custers.jpg: https://research.umcutrecht.nl/news/roel-custers-appointed-associate-professor-knee-problems-take-over-lives-i-want-to-change-that/ (official institutional photo, UMC Utrecht) UMC Utrecht
+- public/img/ambassadors/thomas-hoogeboom.jpg: https://researchinformation.umcutrecht.nl/en/persons/thomas-hoogeboom/ (official institutional profile photo, UMC Utrecht) UMC Utrecht
+- public/img/photos/ticket-yoga-studio.jpg: https://unsplash.com/photos/people-practicing-yoga-in-studio-LtI8XZBlQvw (Unsplash License) Foto: Vitaly Gariev via Unsplash
+- public/img/photos/umh-1.jpg: https://commons.wikimedia.org/wiki/File:Minnaert_Building.jpg (CC0) Foto: Filipjack via Wikimedia Commons, bijgesneden naar 4:5
+- public/img/photos/umh-2.jpg: https://commons.wikimedia.org/wiki/File:Fietsers_(17106701661).jpg (CC BY-SA 2.0) Foto: Sebastiaan ter Burg via Wikimedia Commons, vierkant bijgesneden
+- public/img/ambassadors/stefan-elbers-hu.jpg: https://www.hu.nl/nieuws/maatwerk-helpt-om-gezondheidswinst-pijnrevalidatie-vast-te-houden (official institutional photo, Hogeschool Utrecht) Hogeschool Utrecht
