@@ -65,7 +65,7 @@ const nl = {
   "partners.script": "samen op het Science Park",
 
   "amb.l1": "Ambassadeurs",
-  "amb.script": "zij gaan je voor",
+  "amb.script": "de gezichten achter UMH",
 
   "close.l1": "Kom je ook?",
   "close.script": "tot bij het volgende moment",
@@ -147,7 +147,7 @@ const en: Record<Key, string> = {
   "partners.script": "together at the Science Park",
 
   "amb.l1": "Ambassadors",
-  "amb.script": "they go first",
+  "amb.script": "the faces behind UMH",
 
   "close.l1": "Will you join?",
   "close.script": "see you at the next moment",
